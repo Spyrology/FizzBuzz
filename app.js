@@ -23,5 +23,7 @@ var fizzBuzz = function() {
 };
 
 $(document).ready(function() {
-	fizzBuzz(100);
+	$("input").on("click", function() {
+		fizzBuzz(100);
+	})
 });
