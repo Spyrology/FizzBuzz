@@ -31,6 +31,7 @@ $(document).ready(function() {
 		if(e.keyCode == 13) {
 			$("body").find("p").remove();
 			fizzBuzz();
+			$(this).val('');
 		}
 	});
 });
